@@ -9,15 +9,38 @@
 
 }
 
+.top {
+    height: 768px;
+    background: linear-gradient(0deg,
+            #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+
+.top__box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.top__info {
+    padding-top: 115px;
+    flex-grow: 1;
+    background-image: url(img/top_back.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
 .contacts_container {
     width: 1140px;
     margin: 0 auto;
 }
 
-.menu {
+.header {
     display: flex;
     justify-content: space-between;
+    padding-top: 42px;
 }
+
+
 
 .body {
     font-family: sans-serif
@@ -27,13 +50,33 @@
     font-size: 16px;
     line-height: 26px;
     color: #1F3F68;
-
+    letter-spacing: 0.05em;
+    opacity: 0.6;
 }
 
 .h1heading {
     font-size: 64px;
     color: #1F3F68;
     width: 510px;
+    font-weight: 300;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    margin-bottom: 32px;
+}
+
+.top_button {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    padding: 15px 50px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 71px;
 }
 
 .what_we_do_elements {
