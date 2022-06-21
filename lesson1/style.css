@@ -1,4 +1,25 @@
-body {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+
+}
+
+.contacts_container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.body {
     font-family: sans-serif
 }
 
@@ -12,6 +33,45 @@ body {
 .h1heading {
     font-size: 64px;
     color: #1F3F68;
+    width: 510px;
+}
+
+.what_we_do_container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.what_we_do_first {
+    width: 359px;
+}
+
+.what_we_do_second {
+    width: 359px;
+}
+
+.what_we_do_third {
+    width: 359px;
+}
+
+.teamWorkHeading {
+    width: 340px;
+}
+
+.teamPara {
+    width: 495px;
+}
+
+.footer_contacts {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+
+.mainHeadingPara {
+    width: 425px;
 }
 
 .h2heading {
