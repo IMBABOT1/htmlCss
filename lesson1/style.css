@@ -40,18 +40,80 @@
     padding-top: 42px;
 }
 
+.finishProjectHeading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+
 
 
 .body {
     font-family: sans-serif
 }
 
-.para {
+.text {
     font-size: 16px;
     line-height: 26px;
     color: #1F3F68;
     letter-spacing: 0.05em;
     opacity: 0.6;
+}
+
+.project {}
+
+.project__parent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.project__image {
+    width: 100%;
+}
+
+.project__item {
+    position: relative;
+    flex-grow: 1;
+}
+
+.project__item__margin {
+    margin-right: 32px;
+}
+
+
+.project__text {
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 64px;
+    right: 64px;
+}
+
+.project_para {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.text_project {
+    width: 75%;
+    margin: 32px auto 64px;
+    color: black;
+    opacity: 1;
+    text-align: center;
+
 }
 
 .h1heading {
