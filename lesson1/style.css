@@ -36,7 +36,7 @@
     width: 510px;
 }
 
-.what_we_do_container {
+.what_we_do_elements {
     display: flex;
     justify-content: space-around;
 }
@@ -67,7 +67,10 @@
 
 }
 
-
+.digital_input {
+    display: flex;
+    justify-content: space-around;
+}
 
 
 .mainHeadingPara {
