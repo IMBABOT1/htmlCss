@@ -83,6 +83,7 @@
 }
 
 .project__item__margin {
+    position: relative;
     margin-right: 32px;
 }
 
@@ -96,6 +97,31 @@
     position: absolute;
     top: 64px;
     right: 64px;
+}
+
+.project__text__first {
+    position: absolute;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    right: 339px;
+    top: 32px;
+    left: 32px;
+    bottom: 339px;
+    color: #FFFFFF;
+}
+
+.project__text__second {
+    position: absolute;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    top: 32px;
+    bottom: 339px;
+    right: 264px;
+    left: 32px;
 }
 
 .project_para {
